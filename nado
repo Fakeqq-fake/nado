@@ -1,0 +1,47 @@
+#include <iostream>
+void n_1() {
+    int a=7;
+    int b=2;
+    int delenie_1 = a / b;
+    double delenie = static_cast<double>(a) / b;
+    
+
+    std::cout << "celoe" << delenie_1 << std::endl;
+    std::cout << "drobnoe" << delenie << std::endl;
+}
+void n_2() {
+    double a = 7;
+    
+    std::cout << "Enter integer number: ";
+    std::cin >> a;
+
+    std::cout << "a = ";
+    std::cin >> a;
+}
+    void n_3() {
+     const double GRAVITY = 9.8;
+
+    }
+    void n_4() {
+    int grade; 
+    
+    std::cout << "Bawa ocenka (Celoe 4uclo ot 1 do 5): ";
+    std::cin >> grade;
+    
+    char gradeChar = '0' + grade; 
+
+   
+    std::cout << "Bawa ocenka: " << gradeChar << std::endl;
+    
+    }
+    void n_5() {
+    
+    
+    }
+int main() {
+    n_1();
+    n_2();
+    n_3();
+    n_4();
+    return 0;
+}
