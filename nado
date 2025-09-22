@@ -34,8 +34,13 @@ void n_2() {
     std::cout << "Bawa ocenka: " << gradeChar << std::endl;
     
     }
-    void n_5() {
-    
+   void n_7() {
+    char sym_a = 65;
+    sym_a += 10;
+
+    if (sym_a >= 65 && sym_a <= 90) {
+        std::cout << "sym_a = " << sym_a << std::endl;
+    }
     
     }
 int main() {
@@ -43,5 +48,6 @@ int main() {
     n_2();
     n_3();
     n_4();
+    n_7();
     return 0;
 }
